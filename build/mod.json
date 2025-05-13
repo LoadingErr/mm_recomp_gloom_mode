@@ -1,0 +1,12 @@
+{
+    "authors" : [
+        "LoadingError"
+    ],
+    "description" : "Better watch your step! If you die, you'll permanently lose a heart.\nLosing all your hearts causes the moon to crash!",
+    "display_name" : "Gloom Mode",
+    "game_id" : "mm",
+    "id" : "mm_recomp_gloom_mode",
+    "minimum_recomp_version" : "1.2.0",
+    "short_description" : "Enables Gloom Mode.",
+    "version" : "1.0.0"
+}

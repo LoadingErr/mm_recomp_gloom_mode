@@ -1,0 +1,50 @@
+     VMA      LMA     Size Align Out     In      Symbol
+       0        0        0     1 RAMBASE = 0x81000000
+81000000 81000000       6a     1 .rodata.str1.1
+81000000 81000000       6a     1         <internal>:(.rodata.str1.1)
+81000070 81000070       cc    16 .text
+81000070 81000070       cc    16         build/src/gloom_mode.o:(.text)
+81000070 81000070       cc     1                 TriggerMoonCrashCutsceneIfNoHearts
+8100013c 8100013c       58     4 .recomp_import.*
+8100013c 8100013c       58     4         build/src/gloom_mode.o:(.recomp_import.*)
+8100013c 8100013c        8     1                 recomp_alloc
+81000144 81000144        8     1                 recomp_free
+8100014c 8100014c       10     1                 recomp_printf
+8100015c 8100015c        8     1                 recomp_get_config_u32
+81000164 81000164        8     1                 recomp_get_config_double
+8100016c 8100016c        8     1                 recomp_get_config_string
+81000174 81000174        8     1                 recomp_free_config_string
+8100017c 8100017c        8     1                 recomp_get_mod_version
+81000184 81000184        8     1                 recomp_change_save_file
+8100018c 8100018c        8     1                 recomp_get_save_file_path
+81000194 81000194       d8     4 .recomp_hook.GameOver_Update
+81000194 81000194       d8     4         build/src/gloom_mode.o:(.recomp_hook.GameOver_Update)
+81000194 81000194       d8     1                 DecreaseMaxHeartsOnDeath
+8100026c 8100026c      170     4 .recomp_hook.Player_Update
+8100026c 8100026c      170     4         build/src/gloom_mode.o:(.recomp_hook.Player_Update)
+8100026c 8100026c      170     1                 ResetDeathFlagOnRespawn
+810003dc 810003dc       3c     4 .recomp_hook.func_8082ECE0
+810003dc 810003dc       3c     4         build/src/gloom_mode.o:(.recomp_hook.func_8082ECE0)
+810003dc 810003dc       3c     1                 onGetNewHeart
+81000420 81000420        0    16 .data
+81000420 81000420        0    16         build/src/gloom_mode.o:(.data)
+81000420 81000420        2    16 .bss
+81000420 81000420        2    16         build/src/gloom_mode.o:(.bss)
+81000420 81000420        1     1                 hasRunThisDeath
+81000421 81000421        1     1                 hasRunThisRespawn
+       0        0       28     4 .rel.text
+       0        0       28     4         build/src/gloom_mode.o:(.rel.text)
+       0        0        0     1 .mdebug.abi32
+       0        0        0     1         build/src/gloom_mode.o:(.mdebug.abi32)
+       0        0       80     4 .rel.recomp_hook.GameOver_Update
+       0        0       80     4         build/src/gloom_mode.o:(.rel.recomp_hook.GameOver_Update)
+       0        0       88     4 .rel.recomp_hook.Player_Update
+       0        0       88     4         build/src/gloom_mode.o:(.rel.recomp_hook.Player_Update)
+       0        0       20     4 .rel.recomp_hook.func_8082ECE0
+       0        0       20     4         build/src/gloom_mode.o:(.rel.recomp_hook.func_8082ECE0)
+       0        0      220     4 .symtab
+       0        0      220     4         <internal>:(.symtab)
+       0        0      116     1 .shstrtab
+       0        0      116     1         <internal>:(.shstrtab)
+       0        0      1a8     1 .strtab
+       0        0      1a8     1         <internal>:(.strtab)
